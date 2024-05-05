@@ -18,18 +18,18 @@ export default function Footer() {
             <div className="max-w-[78rem] mx-auto px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-12">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
-                        <div className="flex justify-center text-white sm:justify-start">
+                        <div className="flex justify-start text-left text-white">
                             <Link href={"/"} className="flex items-center gap-2 text-white text-xl font-semibold">
                                 <img src="/images/Logo-White.png" className="w-40"   />
                             </Link>
                         </div>
 
-                        <p className="mt-6 max-w-md text-center leading-relaxed text-gray-100 sm:max-w-xs sm:text-left">
+                        <p className="mt-6 max-w-md text-left leading-relaxed text-gray-100 sm:max-w-xs">
                             PeluangKita.com adalah platform digital bagi para kandidat yang ingin mengikuti kelas atau
                             kursus secara online.
                         </p>
 
-                        <ul className="mt-8 flex justify-center gap-6 sm:justify-start md:gap-8">
+                        <ul className="mt-4 md:mt-8 flex justify-start gap-6 md:gap-8">
                             <li>
                                 <Link href="#">
                                     <RiFacebookCircleFill
@@ -66,10 +66,10 @@ export default function Footer() {
                     </div>
 
                     <div className="grid grid-cols-1 gap-8 sm:grid-cols-2 md:grid-cols-4 lg:col-span-2">
-                        <div className="text-center sm:text-left">
+                        <div className="text-left">
                             <p className="text-lg font-medium text-white">Tentang Kami</p>
 
-                            <ul className="mt-8 space-y-4 text-sm">
+                            <ul className="mt-4 md:mt-8 space-y-4 text-sm">
                                 <li>
                                     <Link className="text-gray-100 transition hover:text-gray-100/75" href="/">
                                         Peluangkita
@@ -96,10 +96,10 @@ export default function Footer() {
                             </ul>
                         </div>
 
-                        <div className="text-center sm:text-left">
+                        <div className="text-left">
                             <p className="text-lg font-medium text-white">Informasi</p>
 
-                            <ul className="mt-8 space-y-4 text-sm">
+                            <ul className="mt-4 md:mt-8 space-y-4 text-sm">
                                 <li>
                                     <Link className="text-gray-100 transition hover:text-gray-100/75" href="/">
                                         Pusat Bantuan
@@ -127,10 +127,10 @@ export default function Footer() {
                         </div>
 
 
-                        <div className="text-center sm:text-left col-span-2">
+                        <div className="text-left col-span-2">
                             <p className="text-lg font-medium text-white">Kontak Kami</p>
 
-                            <ul className="mt-8 space-y-4 text-sm">
+                            <ul className="mt-4 md:mt-8 space-y-4 text-sm">
                                 <li>
                                     <Link
                                         className="flex items-center justify-center gap-1.5 ltr:sm:justify-start rtl:sm:justify-end"

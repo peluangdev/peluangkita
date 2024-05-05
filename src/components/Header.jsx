@@ -9,7 +9,7 @@ export default function Header() {
             <div className="navbar py-0 layout-w max-w-[78rem] mx-auto">
                 <div className="navbar-start py-4">
                     <Link href={"/"} className="flex items-center gap-2 text-secondary text-xl font-semibold">
-                        <Image src="/images/Logo-White.png" width={200} height={100} />
+                        <Image src="/images/Logo-White.png" width={200} height={100} className="" />
                     </Link>
                 </div>
                 {/* <div className="navbar-center">
