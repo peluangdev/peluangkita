@@ -31,8 +31,4 @@ export const CATEGORY_LINKS = [
         label: "UI & UX Design",
         path: "/list",
     },
-    {
-        label: "Business",
-        path: "/list",
-    },
 ]

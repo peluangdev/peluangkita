@@ -20,7 +20,7 @@ function TrendingCategoriesMain() {
         slidesToScroll: 1,
       };
     return (
-        <div className="my-6 max-w-[78rem] mx-auto">
+        <div className="my-6 px-4 md:px-6 max-w-[78rem] mx-auto">
             {/* <div className="flex gap-4">
                 {TRENDING_CATEGORIES.slice(0, 2).map((category) => (
                     <ProductCategoryCard key={category.key} category={category} size="xl" />
