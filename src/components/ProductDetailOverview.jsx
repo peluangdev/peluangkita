@@ -34,15 +34,15 @@ export default function ProductDetailOverview() {
         <section>
             <div className="bg-[url('/images/Banner.png')] lg:h-[300px]">
                 <div className="flex flex-col max-w-[78rem] h-full mx-auto p-8 lg:p-10">
-                    <div className="pt-4 lg:pt-16">
+                    <div className="pt-4 lg:pt-16 text-white">
                         <div className="justify-center ">
-                            <h1 className="font-bold text-3xl lg:text-[44px] ">{product.title}</h1>
+                            <h1 className="font-bold text-white text-3xl lg:text-[44px] ">{product.title}</h1>
                             {/* <p className="font-normal text-gray-300">{product.description}</p> */}
                         </div>
                         <div className="flex gap-10">
                             <div className="flex-col py-6">
                                 <p className="text-gray-300 text-sm mb-2">Kursus dari: </p>
-                                <p className="font-normal">{product.createdBy}</p>
+                                <p className="font-normal text-white">{product.createdBy}</p>
                             </div>
 
                             <div className="flex flex-col py-6">
@@ -53,10 +53,10 @@ export default function ProductDetailOverview() {
                                         value={product.rating} 
                                         size={26} 
                                         color2={'#ffd700'}
-                                        className="items-start"
+                                        className="items-start "
                                         edit={false}
                                     />
-                                    <span className="pl-2 text-md text-['#ffd700']">{product.rating}</span>
+                                    <span className="pl-2 text-md text-white">{product.rating}</span>
                                 </div>
                             </div>
                         </div>
