@@ -33,9 +33,9 @@ function TrendingCategoriesMain() {
                 ))}
             </Slider>
 
-            <Link href="/" className="flex bg-primary my-10 p-4 rounded-lg justify-between" >
+            <Link href="/" className="flex bg-primary my-10 p-4 rounded-lg justify-between items-center" >
                 <h3 className="text-white">Konsultasi untuk tentukan pilihan kelasmu</h3>
-                <FaArrowRight size={20} className="w-10" />
+                <FaArrowRight size={20} className="w-10 text-white" />
             </Link>
 
             

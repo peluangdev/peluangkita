@@ -32,11 +32,11 @@ export default function ProductDetailOverview() {
 
     return(
         <section>
-            <div className="bg-[url('/images/Banner.png')] h-[300px]">
-                <div className="max-w-[78rem] mx-auto">
-                    <div className="flex flex-col pt-16">
+            <div className="bg-[url('/images/Banner.png')] lg:h-[300px]">
+                <div className="flex flex-col max-w-[78rem] h-full mx-auto p-8 lg:p-10">
+                    <div className="pt-4 lg:pt-16">
                         <div className="justify-center ">
-                            <h1 className="font-bold text-[44px] ">{product.title}</h1>
+                            <h1 className="font-bold text-3xl lg:text-[44px] ">{product.title}</h1>
                             {/* <p className="font-normal text-gray-300">{product.description}</p> */}
                         </div>
                         <div className="flex gap-10">
@@ -64,10 +64,10 @@ export default function ProductDetailOverview() {
                 </div>
             </div>
 
-            <div className="mx-auto w-[78rem]">
-                <div className="shadow-lg rounded-lg mt-[-3rem] mb-4 flex flex-col bg-white">
-                    <div className=" mx-auto">
-                        <div className="py-10 px-14 ">
+            <div className="mx-auto lg:w-[78rem] p-6">
+                <div className="shadow-lg rounded-lg mt-2 lg:mt-[-3rem] mb-4 flex flex-col bg-white">
+                    <div className="mx-auto px-4">
+                        <div className="px-4 py-6 lg:py-10 lg:px-14 ">
                             <h2 className="text-center font-semibold text-[26px] text-gray-800 mb-4">Tentang kursus</h2>
                             <p className="text-gray-500">{product.description}</p>
 

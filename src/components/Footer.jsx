@@ -15,7 +15,7 @@ import {
 export default function Footer() {
     return (
         <footer className="bg-primary border-t border-t-gray-300 mt-20">
-            <div className="max-w-[78rem] mx-auto px-4 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-12">
+            <div className="max-w-[78rem] mx-auto px-6 pb-6 pt-16 sm:px-6 lg:px-8 lg:pt-12">
                 <div className="grid grid-cols-1 gap-8 lg:grid-cols-3">
                     <div>
                         <div className="flex justify-start text-left text-white">

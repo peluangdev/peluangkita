@@ -4,7 +4,7 @@ import ProductCardCompact from "./ProductCardCompact"
 
 function RecommendedProducts() {
     return (
-        <div className="my-10 px-4 md:px-6 max-w-[78rem] mx-auto">
+        <div className="my-10 px-6  max-w-[78rem] mx-auto">
             <h3 className="mb-4 text-xl text-gray-800 font-semibold">Rekomendasi Kelas</h3>
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
                 {RECOMMENDED_PRODUCTS.map((product, idx) => (
